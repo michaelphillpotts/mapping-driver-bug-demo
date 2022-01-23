@@ -1,4 +1,4 @@
-#Steps to create:
+# Steps to create:
 ```
 symfony new --version=lts mapping-driver-bug-demo
 
@@ -17,7 +17,7 @@ Add PSR mapping for `ABCBundle` in `composer.json`
 
 Add `ABCBundle` to `bundles.php`
 
-#To replicate:
+# To replicate:
 
 >symfony console make:entity FailedEntity
  
@@ -27,7 +27,7 @@ Actual
 * Entity created with error 'Only annotation or attribute mapping is supported by make:entity'
 * Entity created with _annotations_
 
-#To confirm normal behavior:
+# To confirm normal behavior:
 
 Comment out `ABCBundle` in `bundles.php`
 
